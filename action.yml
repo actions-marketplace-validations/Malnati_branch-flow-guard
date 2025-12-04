@@ -1,5 +1,5 @@
 # action v1.0.0
-name: "Branch Flow Guard"
+name: "Branch Flow Guard Pro"
 description: "Valida o fluxo de branches e retorna um JSON preenchido baseado no template local."
 author: "Ricardo Malnati"
 
