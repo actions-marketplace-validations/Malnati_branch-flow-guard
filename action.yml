@@ -1,4 +1,4 @@
-# Malnati/branch-flow-guard@v1.2.0
+# Malnati/branch-flow-guard@v1.2.1
 name: "Branch Flow Guard Pro"
 description: "Valida o fluxo de branches e retorna um JSON preenchido com orientações dinâmicas."
 author: "Ricardo Malnati"
@@ -182,7 +182,7 @@ runs:
 
         echo "allowed=$ALLOWED" >> "$GITHUB_OUTPUT"
 
-        TEMPLATE_PATH="$GITHUB_ACTION_PATH/branch-flow-guard.json"
+        TEMPLATE_PATH="$GITHUB_ACTION_PATH/message.json"
         if [ ! -f "$TEMPLATE_PATH" ]; then
           echo "::error::Template JSON missing at $TEMPLATE_PATH"
           exit 1
