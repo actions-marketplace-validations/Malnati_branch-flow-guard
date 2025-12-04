@@ -1,5 +1,5 @@
 # action.yml
-name: "Branch Flow Guard"
+name: "Branch Flow Guard Pro"
 description: "Detects code changes and enforces strict branch flow (Dev → Staging → Main)."
 author: "Ricardo Malnati"
 
